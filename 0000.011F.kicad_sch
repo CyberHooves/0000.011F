@@ -2248,7 +2248,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 102.87) (xy 71.12 86.36)
+			(xy 71.12 81.28) (xy 71.12 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2418,7 +2418,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 81.28) (xy 76.2 81.28)
+			(xy 63.5 88.9) (xy 76.2 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2578,7 +2578,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 83.82) (xy 76.2 83.82)
+			(xy 63.5 86.36) (xy 76.2 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2818,26 +2818,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 88.9) (xy 76.2 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87f95848-003d-4bfd-951b-df8c57cb833c")
-	)
-	(wire
-		(pts
-			(xy 73.66 105.41) (xy 73.66 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88307dda-b9bc-4b3c-851c-cd7dd3a48a8a")
-	)
-	(wire
-		(pts
 			(xy 147.32 81.28) (xy 154.94 81.28)
 		)
 		(stroke
@@ -2995,6 +2975,16 @@
 			(type default)
 		)
 		(uuid "ac493c4a-34e4-4b18-a43a-dcbe4666e3bd")
+	)
+	(wire
+		(pts
+			(xy 76.2 81.28) (xy 71.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb70bf6-529d-4a45-8b55-638fd563a3f0")
 	)
 	(wire
 		(pts
@@ -3258,6 +3248,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 83.82) (xy 73.66 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12c399d-12e1-4869-80aa-4d823c587bfd")
+	)
+	(wire
+		(pts
 			(xy 111.76 152.4) (xy 119.38 152.4)
 		)
 		(stroke
@@ -3318,16 +3318,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 86.36) (xy 76.2 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fea17ba3-514c-43d6-aa33-065e5f8b51f7")
-	)
-	(wire
-		(pts
 			(xy 133.35 140.97) (xy 133.35 144.78)
 		)
 		(stroke
@@ -3335,6 +3325,16 @@
 			(type default)
 		)
 		(uuid "fefe5744-17bf-405f-aeda-d4098764fae7")
+	)
+	(wire
+		(pts
+			(xy 73.66 83.82) (xy 73.66 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff146942-fe9f-4aa1-8a89-a6f631c8bc4f")
 	)
 	(wire
 		(pts
@@ -3387,7 +3387,7 @@
 		(uuid "390bbf82-83ae-4842-b3f5-c7e04ce81244")
 	)
 	(label "SPH"
-		(at 71.12 81.28 0)
+		(at 63.5 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3427,7 +3427,7 @@
 		(uuid "9cd0c6c5-fe42-44b5-a7ee-eaeb808478b7")
 	)
 	(label "SPW"
-		(at 71.12 83.82 0)
+		(at 63.5 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5982,7 +5982,7 @@
 			(uuid "0fb4ab6a-8143-46a8-a1f7-d92dcda03bed")
 		)
 		(pin "POTH" output
-			(at 66.04 59.69 0)
+			(at 66.04 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5992,7 +5992,7 @@
 			(uuid "8ea49f63-0f3b-4bb5-bcb7-d7a63c26578c")
 		)
 		(pin "POTW" input
-			(at 66.04 62.23 0)
+			(at 66.04 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
